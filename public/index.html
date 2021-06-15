@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>steph.cloud</title>
+    <link rel="shortcut icon" type="image/jpg" href="001/favicon.ico"/>
     <style>
         body{margin:0;padding:0;text-align: center;}
         h1{
@@ -21,11 +22,22 @@
 </head>
 <body>
     <h1>Hello WORLD</h1>
-    <!-- <audio controls autoplay loop>
+    <audio controls autoplay loop>
     <source src="001/glue.mp3" type="audio/mpeg">
-    </audio> -->
+    </audio>
     <iframe src="001/glue.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+    <iframe src="001/glue.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe> 
 
     <img src="001/hello.jpg" alt="hello WORLD">
+    <script>
+          var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  if (!isChrome){
+      $('#iframeAudio').remove()
+  }
+  else {
+      $('#playAudio').remove() 
+  }
+    </script>
 </body>
 </html>
