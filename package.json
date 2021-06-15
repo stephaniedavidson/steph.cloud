@@ -1,0 +1,22 @@
+{
+  "name": "stephcloud",
+  "version": "1.0.0",
+  "description": "my cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "bop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephaniedavidson/steph.cloud.git"
+  },
+  "keywords": [
+    "steph"
+  ],
+  "author": "steph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephaniedavidson/steph.cloud/issues"
+  },
+  "homepage": "https://github.com/stephaniedavidson/steph.cloud#readme"
+}
