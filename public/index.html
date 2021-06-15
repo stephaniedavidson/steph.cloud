@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>steph.cloud</title>
+    <style>
+        body{margin:0;padding:0;text-align: center;}
+        h1{
+            font-size:12vw;position:absolute;left: 0;right:0;z-index: 1;
+            transform-origin: center center;
+            animation: spin 10s infinite linear;
+        }
+        img{width:100%;position:absolute;bottom:0;left:0;z-index:0;}
+        @keyframes spin {
+            from {transform:rotateY(0deg);}
+            to {transform:rotateY(360deg);}
+        }
+    </style>
 </head>
 <body>
-    <h1>hi</h1>
+    <h1>Hello WORLD</h1>
+    <audio controls autoplay>
+        <source src="001/glue.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+    <img src="001/hello.jpg" alt="hello WORLD">
 </body>
 </html>
